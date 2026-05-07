@@ -1,0 +1,5 @@
+sudo apt update && sudo apt install -y python3 python3-pip python3-venv dpkg-dev fakeroot librsvg2-bin python3-tk && cd "/mnt/j/Мои ИИ-проекты/universal_terminal на codacode/terminal_commands_app" && python3 -m venv venv && source venv/bin/activate && pip install --upgrade pip && pip install -r requirements.txt && pip install customtkinter clipboard pyperclip && chmod +x build_scripts/build_linux.sh && ./build_scripts/build_linux.sh --auto | tee build_scripts/build_auto.log && ./build_scripts/build_linux.sh --static | tee build_scripts/build_static.log
+
+
+Команда для сборки проекта в линукс 
+sudo apt update && sudo apt install -y python3 python3-pip python3-venv dpkg-dev fakeroot librsvg2-bin python3-tk && cd "/mnt/j/Мои ИИ-проекты/universal_terminal на codacode/terminal_commands_app" && python3 -m venv venv && source venv/bin/activate && pip install --upgrade pip && pip install -r requirements.txt && pip install customtkinter clipboard pyperclip && chmod +x build_scripts/build_linux.sh && ./build_scripts/build_linux.sh --static
